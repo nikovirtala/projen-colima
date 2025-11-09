@@ -13,18 +13,18 @@ Adds Colima support to your project with automatic installation and startup.
 ```typescript
 import { Colima } from '@nikovirtala/projen-colima'
 
-new Colima(project: NodeProject)
+new Colima(scope: IConstruct)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@nikovirtala/projen-colima.Colima.Initializer.parameter.project">project</a></code> | <code>projen.javascript.NodeProject</code> | *No description.* |
+| <code><a href="#@nikovirtala/projen-colima.Colima.Initializer.parameter.scope">scope</a></code> | <code>constructs.IConstruct</code> | *No description.* |
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@nikovirtala/projen-colima.Colima.Initializer.parameter.project"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@nikovirtala/projen-colima.Colima.Initializer.parameter.scope"></a>
 
-- *Type:* projen.javascript.NodeProject
+- *Type:* constructs.IConstruct
 
 ---
 

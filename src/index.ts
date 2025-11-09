@@ -1,6 +1,7 @@
 import { Homebrew } from "@nikovirtala/projen-homebrew";
+import type { IConstruct } from "constructs";
+import type { Project } from "projen";
 import { Component } from "projen/lib/component";
-import type { NodeProject } from "projen/lib/javascript";
 
 /**
  * Colima component for projen projects.
@@ -8,8 +9,10 @@ import type { NodeProject } from "projen/lib/javascript";
  * Adds Colima support to your project with automatic installation and startup.
  */
 export class Colima extends Component {
-    constructor(project: NodeProject) {
-        super(project);
+    constructor(scope: IConstruct) {
+        super(scope);
+
+        const project = this.project as Project;
 
         let homebrew = Homebrew.of(project);
         if (!homebrew) {
