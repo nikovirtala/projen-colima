@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2",
-    "@nikovirtala/projen-vitest": "^2.1.29",
+    "@nikovirtala/projen-vitest": "^2.1.30",
     "@types/node": "^22",
     "@vitest/coverage-v8": "^4",
     "commit-and-tag-version": "^12",
@@ -57,7 +57,7 @@
     "projen": "^0.98.30"
   },
   "dependencies": {
-    "@nikovirtala/projen-homebrew": "^1.0.28",
+    "@nikovirtala/projen-homebrew": "^1.0.29",
     "projen": "^0.98.30"
   },
   "pnpm": {},
