@@ -57,7 +57,7 @@
     "projen": "^0.98.32"
   },
   "dependencies": {
-    "@nikovirtala/projen-homebrew": "^1.0.37",
+    "@nikovirtala/projen-homebrew": "^1.0.38",
     "projen": "^0.98.32"
   },
   "pnpm": {},
