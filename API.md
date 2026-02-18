@@ -33,6 +33,7 @@ new Colima(scope: IConstruct)
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@nikovirtala/projen-colima.Colima.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@nikovirtala/projen-colima.Colima.with">with</a></code> | Applies one or more mixins to this construct. |
 | <code><a href="#@nikovirtala/projen-colima.Colima.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
 | <code><a href="#@nikovirtala/projen-colima.Colima.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
 | <code><a href="#@nikovirtala/projen-colima.Colima.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
@@ -46,6 +47,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@nikovirtala/projen-colima.Colima.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@nikovirtala/projen-colima.Colima.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 ##### `postSynthesize` <a name="postSynthesize" id="@nikovirtala/projen-colima.Colima.postSynthesize"></a>
 
